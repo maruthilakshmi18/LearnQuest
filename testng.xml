@@ -8,7 +8,7 @@
     </classes>
   </test>
   
-  <test  name="Test">
+  <test  name="HRMTest">
     <classes>
     <!--   <class name="log4JExample.Amazontest"/> -->
       <class name="log4JExample.HRMLogin"/>
