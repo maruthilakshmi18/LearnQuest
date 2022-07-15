@@ -10,6 +10,7 @@ public class HRMlogintest extends Baseclass  {
 	public void login () {		
 		
     		driver.get("https://opensource-demo.orangehrmlive.com/");
+    		System.out.println("application launched");
 			driver.findElement(By.xpath("//input[@name='txtUsername']")).sendKeys("Admin");
 
 			driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("admin123");
